@@ -1,6 +1,28 @@
 # Spring Boot Application
 
-## Overview
+## Spring Boot
+
+Spring Boot is an open-source Java-based framework used to create stand-alone, production-ready applications with minimal configuration. It is built on top of the Spring Framework and simplifies application development by providing features such as:
+
+- Auto-configuration to reduce manual setup.
+- Embedded servers (Tomcat, Jetty, Undertow) for self-contained deployment.
+- Production-ready features like health checks, metrics, and logging.
+- Easy integration with databases, messaging systems, and cloud services.
+
+## Spring Boot MVC
+
+Spring Boot MVC (Model-View-Controller) is a module of Spring Boot that simplifies building web applications using the MVC design pattern. It is built on top of Spring MVC and provides:
+
+- Built-in support for RESTful APIs.
+- Automatic configuration for web applications.
+- Annotation-driven development with `@Controller`, `@RestController`, `@RequestMapping`, etc.
+- Integration with templates like Thymeleaf and JSP.
+- Easy handling of form submissions and validation.
+
+Spring Boot MVC is widely used for developing modern web applications with clean separation between business logic, user interface, and data handling.
+
+
+## Project Overview
 This is a simple Spring Boot application with REST endpoints that return basic messages.
 
 ## Features
